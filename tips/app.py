@@ -11,7 +11,7 @@ import plotly.figure_factory as ff
 import streamlit as st
 
 
-tips = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv')
+tips = pd.read_csv('https://raw.githubusercontent.com/AlexeyKamaev/streamlit_apps/main/tips/tips.csv')
 
 
 from datetime import datetime as DT
