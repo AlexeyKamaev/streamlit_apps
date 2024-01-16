@@ -1,6 +1,4 @@
 import yfinance as yf
-
-# import numpy as np
 import pandas as pd
 
 import plotly
@@ -59,3 +57,4 @@ graf = fig
 
 import streamlit as st
 st.title('Apple, Boeing and DataDog stock vs S&P500')
+st.plotly_chart(graf, use_container_width=False)
